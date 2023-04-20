@@ -1,0 +1,840 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="TestSuite" time="7.963" tests="6" errors="0" skipped="0" failures="0">
+  <properties>
+    <property name="java.specification.version" value="17"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+    <property name="sun.jnu.encoding" value="Cp1252"/>
+    <property name="java.class.path" value="C:\Users\HARISH R\eclipse-workspace\API_Ecommerce_Framework\target\test-classes;C:\Users\HARISH R\eclipse-workspace\API_Ecommerce_Framework\target\classes;C:\Users\HARISH R\.m2\repository\junit\junit\4.11\junit-4.11.jar;C:\Users\HARISH R\.m2\repository\org\hamcrest\hamcrest-core\1.3\hamcrest-core-1.3.jar;C:\Users\HARISH R\.m2\repository\io\cucumber\cucumber-java\7.11.0\cucumber-java-7.11.0.jar;C:\Users\HARISH R\.m2\repository\io\cucumber\cucumber-core\7.11.0\cucumber-core-7.11.0.jar;C:\Users\HARISH R\.m2\repository\io\cucumber\cucumber-gherkin\7.11.0\cucumber-gherkin-7.11.0.jar;C:\Users\HARISH R\.m2\repository\io\cucumber\cucumber-gherkin-messages\7.11.0\cucumber-gherkin-messages-7.11.0.jar;C:\Users\HARISH R\.m2\repository\io\cucumber\gherkin\26.0.3\gherkin-26.0.3.jar;C:\Users\HARISH R\.m2\repository\io\cucumber\messages\21.0.1\messages-21.0.1.jar;C:\Users\HARISH R\.m2\repository\io\cucumber\tag-expressions\5.0.1\tag-expressions-5.0.1.jar;C:\Users\HARISH R\.m2\repository\io\cucumber\cucumber-expressions\16.1.1\cucumber-expressions-16.1.1.jar;C:\Users\HARISH R\.m2\repository\io\cucumber\datatable\7.11.0\datatable-7.11.0.jar;C:\Users\HARISH R\.m2\repository\io\cucumber\cucumber-plugin\7.11.0\cucumber-plugin-7.11.0.jar;C:\Users\HARISH R\.m2\repository\io\cucumber\docstring\7.11.0\docstring-7.11.0.jar;C:\Users\HARISH R\.m2\repository\io\cucumber\html-formatter\20.2.1\html-formatter-20.2.1.jar;C:\Users\HARISH R\.m2\repository\io\cucumber\junit-xml-formatter\0.1.0\junit-xml-formatter-0.1.0.jar;C:\Users\HARISH R\.m2\repository\io\cucumber\ci-environment\9.1.0\ci-environment-9.1.0.jar;C:\Users\HARISH R\.m2\repository\org\apiguardian\apiguardian-api\1.1.2\apiguardian-api-1.1.2.jar;C:\Users\HARISH R\.m2\repository\io\cucumber\cucumber-testng\7.11.0\cucumber-testng-7.11.0.jar;C:\Users\HARISH R\.m2\repository\org\testng\testng\7.7.1\testng-7.7.1.jar;C:\Users\HARISH R\.m2\repository\org\slf4j\slf4j-api\1.7.36\slf4j-api-1.7.36.jar;C:\Users\HARISH R\.m2\repository\com\beust\jcommander\1.82\jcommander-1.82.jar;C:\Users\HARISH R\.m2\repository\org\webjars\jquery\3.6.1\jquery-3.6.1.jar;C:\Users\HARISH R\.m2\repository\io\rest-assured\rest-assured\5.3.0\rest-assured-5.3.0.jar;C:\Users\HARISH R\.m2\repository\org\apache\groovy\groovy\4.0.6\groovy-4.0.6.jar;C:\Users\HARISH R\.m2\repository\org\apache\groovy\groovy-xml\4.0.6\groovy-xml-4.0.6.jar;C:\Users\HARISH R\.m2\repository\org\apache\httpcomponents\httpclient\4.5.13\httpclient-4.5.13.jar;C:\Users\HARISH R\.m2\repository\org\apache\httpcomponents\httpcore\4.4.13\httpcore-4.4.13.jar;C:\Users\HARISH R\.m2\repository\commons-logging\commons-logging\1.2\commons-logging-1.2.jar;C:\Users\HARISH R\.m2\repository\commons-codec\commons-codec\1.11\commons-codec-1.11.jar;C:\Users\HARISH R\.m2\repository\org\apache\httpcomponents\httpmime\4.5.13\httpmime-4.5.13.jar;C:\Users\HARISH R\.m2\repository\org\hamcrest\hamcrest\2.1\hamcrest-2.1.jar;C:\Users\HARISH R\.m2\repository\org\ccil\cowan\tagsoup\tagsoup\1.2.1\tagsoup-1.2.1.jar;C:\Users\HARISH R\.m2\repository\io\rest-assured\json-path\5.3.0\json-path-5.3.0.jar;C:\Users\HARISH R\.m2\repository\org\apache\groovy\groovy-json\4.0.6\groovy-json-4.0.6.jar;C:\Users\HARISH R\.m2\repository\io\rest-assured\rest-assured-common\5.3.0\rest-assured-common-5.3.0.jar;C:\Users\HARISH R\.m2\repository\io\rest-assured\xml-path\5.3.0\xml-path-5.3.0.jar;C:\Users\HARISH R\.m2\repository\org\apache\commons\commons-lang3\3.11\commons-lang3-3.11.jar;C:\Users\HARISH R\.m2\repository\com\fasterxml\jackson\core\jackson-databind\2.14.2\jackson-databind-2.14.2.jar;C:\Users\HARISH R\.m2\repository\com\fasterxml\jackson\core\jackson-core\2.14.2\jackson-core-2.14.2.jar;C:\Users\HARISH R\.m2\repository\com\fasterxml\jackson\core\jackson-annotations\2.14.2\jackson-annotations-2.14.2.jar;"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="user.variant" value=""/>
+    <property name="java.vendor.url" value="https://java.oracle.com/"/>
+    <property name="user.timezone" value="America/Los_Angeles"/>
+    <property name="os.name" value="Windows 10"/>
+    <property name="java.vm.specification.version" value="17"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="user.country" value="US"/>
+    <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk-17\bin"/>
+    <property name="sun.java.command" value="C:\Users\HARISH R\AppData\Local\Temp\surefire8647417251702093446\surefirebooter-20230419072650012_3.jar C:\Users\HARISH R\AppData\Local\Temp\surefire8647417251702093446 2023-04-19T07-26-49_883-jvmRun1 surefire-20230419072650012_1tmp surefire_0-20230419072650012_2tmp"/>
+    <property name="jdk.debug" value="release"/>
+    <property name="surefire.test.class.path" value="C:\Users\HARISH R\eclipse-workspace\API_Ecommerce_Framework\target\test-classes;C:\Users\HARISH R\eclipse-workspace\API_Ecommerce_Framework\target\classes;C:\Users\HARISH R\.m2\repository\junit\junit\4.11\junit-4.11.jar;C:\Users\HARISH R\.m2\repository\org\hamcrest\hamcrest-core\1.3\hamcrest-core-1.3.jar;C:\Users\HARISH R\.m2\repository\io\cucumber\cucumber-java\7.11.0\cucumber-java-7.11.0.jar;C:\Users\HARISH R\.m2\repository\io\cucumber\cucumber-core\7.11.0\cucumber-core-7.11.0.jar;C:\Users\HARISH R\.m2\repository\io\cucumber\cucumber-gherkin\7.11.0\cucumber-gherkin-7.11.0.jar;C:\Users\HARISH R\.m2\repository\io\cucumber\cucumber-gherkin-messages\7.11.0\cucumber-gherkin-messages-7.11.0.jar;C:\Users\HARISH R\.m2\repository\io\cucumber\gherkin\26.0.3\gherkin-26.0.3.jar;C:\Users\HARISH R\.m2\repository\io\cucumber\messages\21.0.1\messages-21.0.1.jar;C:\Users\HARISH R\.m2\repository\io\cucumber\tag-expressions\5.0.1\tag-expressions-5.0.1.jar;C:\Users\HARISH R\.m2\repository\io\cucumber\cucumber-expressions\16.1.1\cucumber-expressions-16.1.1.jar;C:\Users\HARISH R\.m2\repository\io\cucumber\datatable\7.11.0\datatable-7.11.0.jar;C:\Users\HARISH R\.m2\repository\io\cucumber\cucumber-plugin\7.11.0\cucumber-plugin-7.11.0.jar;C:\Users\HARISH R\.m2\repository\io\cucumber\docstring\7.11.0\docstring-7.11.0.jar;C:\Users\HARISH R\.m2\repository\io\cucumber\html-formatter\20.2.1\html-formatter-20.2.1.jar;C:\Users\HARISH R\.m2\repository\io\cucumber\junit-xml-formatter\0.1.0\junit-xml-formatter-0.1.0.jar;C:\Users\HARISH R\.m2\repository\io\cucumber\ci-environment\9.1.0\ci-environment-9.1.0.jar;C:\Users\HARISH R\.m2\repository\org\apiguardian\apiguardian-api\1.1.2\apiguardian-api-1.1.2.jar;C:\Users\HARISH R\.m2\repository\io\cucumber\cucumber-testng\7.11.0\cucumber-testng-7.11.0.jar;C:\Users\HARISH R\.m2\repository\org\testng\testng\7.7.1\testng-7.7.1.jar;C:\Users\HARISH R\.m2\repository\org\slf4j\slf4j-api\1.7.36\slf4j-api-1.7.36.jar;C:\Users\HARISH R\.m2\repository\com\beust\jcommander\1.82\jcommander-1.82.jar;C:\Users\HARISH R\.m2\repository\org\webjars\jquery\3.6.1\jquery-3.6.1.jar;C:\Users\HARISH R\.m2\repository\io\rest-assured\rest-assured\5.3.0\rest-assured-5.3.0.jar;C:\Users\HARISH R\.m2\repository\org\apache\groovy\groovy\4.0.6\groovy-4.0.6.jar;C:\Users\HARISH R\.m2\repository\org\apache\groovy\groovy-xml\4.0.6\groovy-xml-4.0.6.jar;C:\Users\HARISH R\.m2\repository\org\apache\httpcomponents\httpclient\4.5.13\httpclient-4.5.13.jar;C:\Users\HARISH R\.m2\repository\org\apache\httpcomponents\httpcore\4.4.13\httpcore-4.4.13.jar;C:\Users\HARISH R\.m2\repository\commons-logging\commons-logging\1.2\commons-logging-1.2.jar;C:\Users\HARISH R\.m2\repository\commons-codec\commons-codec\1.11\commons-codec-1.11.jar;C:\Users\HARISH R\.m2\repository\org\apache\httpcomponents\httpmime\4.5.13\httpmime-4.5.13.jar;C:\Users\HARISH R\.m2\repository\org\hamcrest\hamcrest\2.1\hamcrest-2.1.jar;C:\Users\HARISH R\.m2\repository\org\ccil\cowan\tagsoup\tagsoup\1.2.1\tagsoup-1.2.1.jar;C:\Users\HARISH R\.m2\repository\io\rest-assured\json-path\5.3.0\json-path-5.3.0.jar;C:\Users\HARISH R\.m2\repository\org\apache\groovy\groovy-json\4.0.6\groovy-json-4.0.6.jar;C:\Users\HARISH R\.m2\repository\io\rest-assured\rest-assured-common\5.3.0\rest-assured-common-5.3.0.jar;C:\Users\HARISH R\.m2\repository\io\rest-assured\xml-path\5.3.0\xml-path-5.3.0.jar;C:\Users\HARISH R\.m2\repository\org\apache\commons\commons-lang3\3.11\commons-lang3-3.11.jar;C:\Users\HARISH R\.m2\repository\com\fasterxml\jackson\core\jackson-databind\2.14.2\jackson-databind-2.14.2.jar;C:\Users\HARISH R\.m2\repository\com\fasterxml\jackson\core\jackson-core\2.14.2\jackson-core-2.14.2.jar;C:\Users\HARISH R\.m2\repository\com\fasterxml\jackson\core\jackson-annotations\2.14.2\jackson-annotations-2.14.2.jar;"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="C:\Users\HARISH R"/>
+    <property name="user.language" value="en"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.version.date" value="2023-01-17"/>
+    <property name="java.home" value="C:\Program Files\Java\jdk-17"/>
+    <property name="file.separator" value="\"/>
+    <property name="basedir" value="C:\Users\HARISH R\eclipse-workspace\API_Ecommerce_Framework"/>
+    <property name="java.vm.compressedOopsMode" value="32-bit"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="surefire.real.class.path" value="C:\Users\HARISH R\AppData\Local\Temp\surefire8647417251702093446\surefirebooter-20230419072650012_3.jar"/>
+    <property name="user.script" value=""/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="java.runtime.version" value="17.0.6+9-LTS-190"/>
+    <property name="user.name" value="HARISH R"/>
+    <property name="path.separator" value=";"/>
+    <property name="os.version" value="10.0"/>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="file.encoding" value="Cp1252"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="localRepository" value="C:\Users\HARISH R\.m2\repository"/>
+    <property name="java.vendor.url.bug" value="https://bugreport.java.com/bugreport/"/>
+    <property name="java.io.tmpdir" value="C:\Users\HARISH~1\AppData\Local\Temp\"/>
+    <property name="java.version" value="17.0.6"/>
+    <property name="user.dir" value="C:\Users\HARISH R\eclipse-workspace\API_Ecommerce_Framework"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="native.encoding" value="Cp1252"/>
+    <property name="java.library.path" value="C:\Program Files\Java\jdk-17\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\Program Files\Common Files\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files\Java\jdk-17\bin;C:\Program Files\apache-maven-3.9.1\bin;C:\Users\HARISH R\AppData\Local\Microsoft\WindowsApps;."/>
+    <property name="java.vm.info" value="mixed mode, sharing"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="java.vm.version" value="17.0.6+9-LTS-190"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="java.class.version" value="61.0"/>
+  </properties>
+  <testcase name="runScenario[&quot;Login to Ecommerce Website with API Call&quot;, &quot;Login to Ecommerce Website&quot;](1)" classname="cucumberOptions.TestRunner" time="1.778">
+    <system-out><![CDATA[/api/ecom/auth/login
+Request method:	POST
+Request URI:	https://rahulshettyacademy.com/api/ecom/auth/login
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "userEmail": "testautomation0691@gmail.com",
+    "userPassword": "Test@0691"
+}
+Request method:	POST
+Request URI:	https://rahulshettyacademy.com/api/ecom/auth/login
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "userEmail": "testautomation0691@gmail.com",
+    "userPassword": "Test@0691"
+}
+HTTP/1.1 200 OK
+Date: Wed, 19 Apr 2023 14:26:51 GMT
+Server: Apache/2.4.41 (Ubuntu)
+Content-Security-Policy: default-src 'self';base-uri 'self';block-all-mixed-content;font-src 'self' https: data:;frame-ancestors 'self';img-src 'self' data:;object-src 'none';script-src 'self';script-src-attr 'none';style-src 'self' https: 'unsafe-inline';upgrade-insecure-requests
+X-DNS-Prefetch-Control: off
+Expect-CT: max-age=0
+X-Frame-Options: SAMEORIGIN
+Strict-Transport-Security: max-age=15552000; includeSubDomains
+X-Download-Options: noopen
+X-Content-Type-Options: nosniff
+X-Permitted-Cross-Domain-Policies: none
+Referrer-Policy: no-referrer
+X-XSS-Protection: 0
+Access-Control-Allow-Origin: *
+Content-Type: application/json; charset=utf-8
+Content-Length: 370
+ETag: W/"172-SPKsL0KTjDME7gTuUo1BGuDTF+E"
+Vary: Accept-Encoding
+Keep-Alive: timeout=5, max=100
+Connection: Keep-Alive
+
+{
+    "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI2Mzk5NjMyYzAzODQxZTljOWE1M2Y4NWMiLCJ1c2VyRW1haWwiOiJ0ZXN0YXV0b21hdGlvbjA2OTFAZ21haWwuY29tIiwidXNlck1vYmlsZSI6MTExMTExMTExMSwidXNlclJvbGUiOiJjdXN0b21lciIsImlhdCI6MTY4MTkxNDQxMSwiZXhwIjoxNzEzNDcyMDExfQ.6r6-k92FVTZobj2XXFLJShppG_UWZ2hJJ_b5CR-4LEU",
+    "userId": "6399632c03841e9c9a53f85c",
+    "message": "Login Successfully"
+}
+]]></system-out>
+    <system-err><![CDATA[SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder".
+SLF4J: Defaulting to no-operation (NOP) logger implementation
+SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.
+]]></system-err>
+  </testcase>
+  <testcase name="runScenario[&quot;Create a Product in website using API call&quot;, &quot;Login to Ecommerce Website&quot;](2)" classname="cucumberOptions.TestRunner" time="0.277">
+    <system-out><![CDATA[api/ecom/product/add-product
+Request method:	POST
+Request URI:	https://rahulshettyacademy.com/api/ecom/product/add-product
+Proxy:			<none>
+Request params:	productName=laptop
+				productAddedBy=6399632c03841e9c9a53f85c
+				productCategory=fashion
+				productSubCategory=shirts
+				productPrice=11500
+				productDescription=Dell
+				productFor=All
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Authorization=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI2Mzk5NjMyYzAzODQxZTljOWE1M2Y4NWMiLCJ1c2VyRW1haWwiOiJ0ZXN0YXV0b21hdGlvbjA2OTFAZ21haWwuY29tIiwidXNlck1vYmlsZSI6MTExMTExMTExMSwidXNlclJvbGUiOiJjdXN0b21lciIsImlhdCI6MTY4MTkxNDQxMSwiZXhwIjoxNzEzNDcyMDExfQ.6r6-k92FVTZobj2XXFLJShppG_UWZ2hJJ_b5CR-4LEU
+				Accept=*/*
+				Content-Type=multipart/form-data
+Cookies:		<none>
+Multiparts:		------------
+				Content-Disposition: form-data; name = productImage; filename = image.jpg
+				Content-Type: application/octet-stream
+
+				C:\Users\HARISH R\Desktop\image.jpg
+Body:			<none>
+HTTP/1.1 201 Created
+Date: Wed, 19 Apr 2023 14:26:51 GMT
+Server: Apache/2.4.41 (Ubuntu)
+Content-Security-Policy: default-src 'self';base-uri 'self';block-all-mixed-content;font-src 'self' https: data:;frame-ancestors 'self';img-src 'self' data:;object-src 'none';script-src 'self';script-src-attr 'none';style-src 'self' https: 'unsafe-inline';upgrade-insecure-requests
+X-DNS-Prefetch-Control: off
+Expect-CT: max-age=0
+X-Frame-Options: SAMEORIGIN
+Strict-Transport-Security: max-age=15552000; includeSubDomains
+X-Download-Options: noopen
+X-Content-Type-Options: nosniff
+X-Permitted-Cross-Domain-Policies: none
+Referrer-Policy: no-referrer
+X-XSS-Protection: 0
+Access-Control-Allow-Origin: *
+Content-Type: application/json; charset=utf-8
+Content-Length: 79
+ETag: W/"4f-zR1kkjfhoUsdyLK7Jv9i1jQZk+U"
+Vary: Accept-Encoding
+Keep-Alive: timeout=5, max=100
+Connection: Keep-Alive
+
+{
+    "productId": "643ffa2b568c3e9fb156ced9",
+    "message": "Product Added Successfully"
+}
+]]></system-out>
+  </testcase>
+  <testcase name="runScenario[&quot;Create an Order in website using API call&quot;, &quot;Login to Ecommerce Website&quot;](3)" classname="cucumberOptions.TestRunner" time="2.567">
+    <system-out><![CDATA[/api/ecom/auth/login
+Request method:	POST
+Request URI:	https://rahulshettyacademy.com/api/ecom/auth/login
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "userEmail": "testautomation0691@gmail.com",
+    "userPassword": "Test@0691"
+}
+Request method:	POST
+Request URI:	https://rahulshettyacademy.com/api/ecom/auth/login
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "userEmail": "testautomation0691@gmail.com",
+    "userPassword": "Test@0691"
+}
+HTTP/1.1 200 OK
+Date: Wed, 19 Apr 2023 14:26:52 GMT
+Server: Apache/2.4.41 (Ubuntu)
+Content-Security-Policy: default-src 'self';base-uri 'self';block-all-mixed-content;font-src 'self' https: data:;frame-ancestors 'self';img-src 'self' data:;object-src 'none';script-src 'self';script-src-attr 'none';style-src 'self' https: 'unsafe-inline';upgrade-insecure-requests
+X-DNS-Prefetch-Control: off
+Expect-CT: max-age=0
+X-Frame-Options: SAMEORIGIN
+Strict-Transport-Security: max-age=15552000; includeSubDomains
+X-Download-Options: noopen
+X-Content-Type-Options: nosniff
+X-Permitted-Cross-Domain-Policies: none
+Referrer-Policy: no-referrer
+X-XSS-Protection: 0
+Access-Control-Allow-Origin: *
+Content-Type: application/json; charset=utf-8
+Content-Length: 370
+ETag: W/"172-J7JtwBPnZCFiEDNCt1XioRUNTC4"
+Vary: Accept-Encoding
+Keep-Alive: timeout=5, max=100
+Connection: Keep-Alive
+
+{
+    "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI2Mzk5NjMyYzAzODQxZTljOWE1M2Y4NWMiLCJ1c2VyRW1haWwiOiJ0ZXN0YXV0b21hdGlvbjA2OTFAZ21haWwuY29tIiwidXNlck1vYmlsZSI6MTExMTExMTExMSwidXNlclJvbGUiOiJjdXN0b21lciIsImlhdCI6MTY4MTkxNDQxMiwiZXhwIjoxNzEzNDcyMDEyfQ.aM-fEk-uwNzYt-8DKUBqgkMJIViuWgTxZeoNVJ3woj4",
+    "userId": "6399632c03841e9c9a53f85c",
+    "message": "Login Successfully"
+}
+api/ecom/product/add-product
+Request method:	POST
+Request URI:	https://rahulshettyacademy.com/api/ecom/product/add-product
+Proxy:			<none>
+Request params:	productName=laptop
+				productAddedBy=6399632c03841e9c9a53f85c
+				productCategory=fashion
+				productSubCategory=shirts
+				productPrice=11500
+				productDescription=Dell
+				productFor=All
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Authorization=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI2Mzk5NjMyYzAzODQxZTljOWE1M2Y4NWMiLCJ1c2VyRW1haWwiOiJ0ZXN0YXV0b21hdGlvbjA2OTFAZ21haWwuY29tIiwidXNlck1vYmlsZSI6MTExMTExMTExMSwidXNlclJvbGUiOiJjdXN0b21lciIsImlhdCI6MTY4MTkxNDQxMiwiZXhwIjoxNzEzNDcyMDEyfQ.aM-fEk-uwNzYt-8DKUBqgkMJIViuWgTxZeoNVJ3woj4
+				Accept=*/*
+				Content-Type=multipart/form-data
+Cookies:		<none>
+Multiparts:		------------
+				Content-Disposition: form-data; name = productImage; filename = image.jpg
+				Content-Type: application/octet-stream
+
+				C:\Users\HARISH R\Desktop\image.jpg
+Body:			<none>
+HTTP/1.1 201 Created
+Date: Wed, 19 Apr 2023 14:26:53 GMT
+Server: Apache/2.4.41 (Ubuntu)
+Content-Security-Policy: default-src 'self';base-uri 'self';block-all-mixed-content;font-src 'self' https: data:;frame-ancestors 'self';img-src 'self' data:;object-src 'none';script-src 'self';script-src-attr 'none';style-src 'self' https: 'unsafe-inline';upgrade-insecure-requests
+X-DNS-Prefetch-Control: off
+Expect-CT: max-age=0
+X-Frame-Options: SAMEORIGIN
+Strict-Transport-Security: max-age=15552000; includeSubDomains
+X-Download-Options: noopen
+X-Content-Type-Options: nosniff
+X-Permitted-Cross-Domain-Policies: none
+Referrer-Policy: no-referrer
+X-XSS-Protection: 0
+Access-Control-Allow-Origin: *
+Content-Type: application/json; charset=utf-8
+Content-Length: 79
+ETag: W/"4f-/Hh18lY1XI0oYrMJ/I+TR8SAFx0"
+Vary: Accept-Encoding
+Keep-Alive: timeout=5, max=100
+Connection: Keep-Alive
+
+{
+    "productId": "643ffa2d568c3e9fb156cedf",
+    "message": "Product Added Successfully"
+}
+eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI2Mzk5NjMyYzAzODQxZTljOWE1M2Y4NWMiLCJ1c2VyRW1haWwiOiJ0ZXN0YXV0b21hdGlvbjA2OTFAZ21haWwuY29tIiwidXNlck1vYmlsZSI6MTExMTExMTExMSwidXNlclJvbGUiOiJjdXN0b21lciIsImlhdCI6MTY4MTkxNDQxMiwiZXhwIjoxNzEzNDcyMDEyfQ.aM-fEk-uwNzYt-8DKUBqgkMJIViuWgTxZeoNVJ3woj4
+643ffa2d568c3e9fb156cedf
+api/ecom/order/create-order
+Request method:	POST
+Request URI:	https://rahulshettyacademy.com/api/ecom/order/create-order
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Authorization=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI2Mzk5NjMyYzAzODQxZTljOWE1M2Y4NWMiLCJ1c2VyRW1haWwiOiJ0ZXN0YXV0b21hdGlvbjA2OTFAZ21haWwuY29tIiwidXNlck1vYmlsZSI6MTExMTExMTExMSwidXNlclJvbGUiOiJjdXN0b21lciIsImlhdCI6MTY4MTkxNDQxMiwiZXhwIjoxNzEzNDcyMDEyfQ.aM-fEk-uwNzYt-8DKUBqgkMJIViuWgTxZeoNVJ3woj4
+				Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "orders": [
+        {
+            "country": "India",
+            "productOrderedId": "643ffa2d568c3e9fb156cedf"
+        }
+    ]
+}
+Request method:	POST
+Request URI:	https://rahulshettyacademy.com/api/ecom/order/create-order
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Authorization=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI2Mzk5NjMyYzAzODQxZTljOWE1M2Y4NWMiLCJ1c2VyRW1haWwiOiJ0ZXN0YXV0b21hdGlvbjA2OTFAZ21haWwuY29tIiwidXNlck1vYmlsZSI6MTExMTExMTExMSwidXNlclJvbGUiOiJjdXN0b21lciIsImlhdCI6MTY4MTkxNDQxMiwiZXhwIjoxNzEzNDcyMDEyfQ.aM-fEk-uwNzYt-8DKUBqgkMJIViuWgTxZeoNVJ3woj4
+				Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "orders": [
+        {
+            "country": "India",
+            "productOrderedId": "643ffa2d568c3e9fb156cedf"
+        }
+    ]
+}
+HTTP/1.1 201 Created
+Date: Wed, 19 Apr 2023 14:26:54 GMT
+Server: Apache/2.4.41 (Ubuntu)
+Content-Security-Policy: default-src 'self';base-uri 'self';block-all-mixed-content;font-src 'self' https: data:;frame-ancestors 'self';img-src 'self' data:;object-src 'none';script-src 'self';script-src-attr 'none';style-src 'self' https: 'unsafe-inline';upgrade-insecure-requests
+X-DNS-Prefetch-Control: off
+Expect-CT: max-age=0
+X-Frame-Options: SAMEORIGIN
+Strict-Transport-Security: max-age=15552000; includeSubDomains
+X-Download-Options: noopen
+X-Content-Type-Options: nosniff
+X-Permitted-Cross-Domain-Policies: none
+Referrer-Policy: no-referrer
+X-XSS-Protection: 0
+Access-Control-Allow-Origin: *
+Content-Type: application/json; charset=utf-8
+Content-Length: 123
+ETag: W/"7b-k766WAty9KycATAGFcdQqsqQ5Bk"
+Vary: Accept-Encoding
+Keep-Alive: timeout=5, max=100
+Connection: Keep-Alive
+
+{
+    "orders": [
+        "643ffa2e568c3e9fb156cee5"
+    ],
+    "productOrderId": [
+        "643ffa2d568c3e9fb156cedf"
+    ],
+    "message": "Order Placed Successfully"
+}
+]]></system-out>
+  </testcase>
+  <testcase name="runScenario[&quot;GetOrder details in website using API call&quot;, &quot;Login to Ecommerce Website&quot;](4)" classname="cucumberOptions.TestRunner" time="1.091">
+    <system-out><![CDATA[/api/ecom/auth/login
+Request method:	POST
+Request URI:	https://rahulshettyacademy.com/api/ecom/auth/login
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "userEmail": "testautomation0691@gmail.com",
+    "userPassword": "Test@0691"
+}
+Request method:	POST
+Request URI:	https://rahulshettyacademy.com/api/ecom/auth/login
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "userEmail": "testautomation0691@gmail.com",
+    "userPassword": "Test@0691"
+}
+HTTP/1.1 200 OK
+Date: Wed, 19 Apr 2023 14:26:54 GMT
+Server: Apache/2.4.41 (Ubuntu)
+Content-Security-Policy: default-src 'self';base-uri 'self';block-all-mixed-content;font-src 'self' https: data:;frame-ancestors 'self';img-src 'self' data:;object-src 'none';script-src 'self';script-src-attr 'none';style-src 'self' https: 'unsafe-inline';upgrade-insecure-requests
+X-DNS-Prefetch-Control: off
+Expect-CT: max-age=0
+X-Frame-Options: SAMEORIGIN
+Strict-Transport-Security: max-age=15552000; includeSubDomains
+X-Download-Options: noopen
+X-Content-Type-Options: nosniff
+X-Permitted-Cross-Domain-Policies: none
+Referrer-Policy: no-referrer
+X-XSS-Protection: 0
+Access-Control-Allow-Origin: *
+Content-Type: application/json; charset=utf-8
+Content-Length: 370
+ETag: W/"172-GrCYU3dGHc/df75WqxJW9k3C7KU"
+Vary: Accept-Encoding
+Keep-Alive: timeout=5, max=100
+Connection: Keep-Alive
+
+{
+    "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI2Mzk5NjMyYzAzODQxZTljOWE1M2Y4NWMiLCJ1c2VyRW1haWwiOiJ0ZXN0YXV0b21hdGlvbjA2OTFAZ21haWwuY29tIiwidXNlck1vYmlsZSI6MTExMTExMTExMSwidXNlclJvbGUiOiJjdXN0b21lciIsImlhdCI6MTY4MTkxNDQxNCwiZXhwIjoxNzEzNDcyMDE0fQ.RaE-fpPEW6t-7mbiCnJhQo-yDKfyRSVRTdV5x9d2RSk",
+    "userId": "6399632c03841e9c9a53f85c",
+    "message": "Login Successfully"
+}
+api/ecom/product/add-product
+Request method:	POST
+Request URI:	https://rahulshettyacademy.com/api/ecom/product/add-product
+Proxy:			<none>
+Request params:	productName=laptop
+				productAddedBy=6399632c03841e9c9a53f85c
+				productCategory=fashion
+				productSubCategory=shirts
+				productPrice=11500
+				productDescription=Dell
+				productFor=All
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Authorization=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI2Mzk5NjMyYzAzODQxZTljOWE1M2Y4NWMiLCJ1c2VyRW1haWwiOiJ0ZXN0YXV0b21hdGlvbjA2OTFAZ21haWwuY29tIiwidXNlck1vYmlsZSI6MTExMTExMTExMSwidXNlclJvbGUiOiJjdXN0b21lciIsImlhdCI6MTY4MTkxNDQxNCwiZXhwIjoxNzEzNDcyMDE0fQ.RaE-fpPEW6t-7mbiCnJhQo-yDKfyRSVRTdV5x9d2RSk
+				Accept=*/*
+				Content-Type=multipart/form-data
+Cookies:		<none>
+Multiparts:		------------
+				Content-Disposition: form-data; name = productImage; filename = image.jpg
+				Content-Type: application/octet-stream
+
+				C:\Users\HARISH R\Desktop\image.jpg
+Body:			<none>
+HTTP/1.1 201 Created
+Date: Wed, 19 Apr 2023 14:26:55 GMT
+Server: Apache/2.4.41 (Ubuntu)
+Content-Security-Policy: default-src 'self';base-uri 'self';block-all-mixed-content;font-src 'self' https: data:;frame-ancestors 'self';img-src 'self' data:;object-src 'none';script-src 'self';script-src-attr 'none';style-src 'self' https: 'unsafe-inline';upgrade-insecure-requests
+X-DNS-Prefetch-Control: off
+Expect-CT: max-age=0
+X-Frame-Options: SAMEORIGIN
+Strict-Transport-Security: max-age=15552000; includeSubDomains
+X-Download-Options: noopen
+X-Content-Type-Options: nosniff
+X-Permitted-Cross-Domain-Policies: none
+Referrer-Policy: no-referrer
+X-XSS-Protection: 0
+Access-Control-Allow-Origin: *
+Content-Type: application/json; charset=utf-8
+Content-Length: 79
+ETag: W/"4f-j0VYOAae+P7i5FbSj1tMDDSRnqI"
+Vary: Accept-Encoding
+Keep-Alive: timeout=5, max=100
+Connection: Keep-Alive
+
+{
+    "productId": "643ffa2f568c3e9fb156ceee",
+    "message": "Product Added Successfully"
+}
+eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI2Mzk5NjMyYzAzODQxZTljOWE1M2Y4NWMiLCJ1c2VyRW1haWwiOiJ0ZXN0YXV0b21hdGlvbjA2OTFAZ21haWwuY29tIiwidXNlck1vYmlsZSI6MTExMTExMTExMSwidXNlclJvbGUiOiJjdXN0b21lciIsImlhdCI6MTY4MTkxNDQxNCwiZXhwIjoxNzEzNDcyMDE0fQ.RaE-fpPEW6t-7mbiCnJhQo-yDKfyRSVRTdV5x9d2RSk
+643ffa2f568c3e9fb156ceee
+api/ecom/order/create-order
+Request method:	POST
+Request URI:	https://rahulshettyacademy.com/api/ecom/order/create-order
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Authorization=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI2Mzk5NjMyYzAzODQxZTljOWE1M2Y4NWMiLCJ1c2VyRW1haWwiOiJ0ZXN0YXV0b21hdGlvbjA2OTFAZ21haWwuY29tIiwidXNlck1vYmlsZSI6MTExMTExMTExMSwidXNlclJvbGUiOiJjdXN0b21lciIsImlhdCI6MTY4MTkxNDQxNCwiZXhwIjoxNzEzNDcyMDE0fQ.RaE-fpPEW6t-7mbiCnJhQo-yDKfyRSVRTdV5x9d2RSk
+				Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "orders": [
+        {
+            "country": "India",
+            "productOrderedId": "643ffa2f568c3e9fb156ceee"
+        }
+    ]
+}
+Request method:	POST
+Request URI:	https://rahulshettyacademy.com/api/ecom/order/create-order
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Authorization=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI2Mzk5NjMyYzAzODQxZTljOWE1M2Y4NWMiLCJ1c2VyRW1haWwiOiJ0ZXN0YXV0b21hdGlvbjA2OTFAZ21haWwuY29tIiwidXNlck1vYmlsZSI6MTExMTExMTExMSwidXNlclJvbGUiOiJjdXN0b21lciIsImlhdCI6MTY4MTkxNDQxNCwiZXhwIjoxNzEzNDcyMDE0fQ.RaE-fpPEW6t-7mbiCnJhQo-yDKfyRSVRTdV5x9d2RSk
+				Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "orders": [
+        {
+            "country": "India",
+            "productOrderedId": "643ffa2f568c3e9fb156ceee"
+        }
+    ]
+}
+HTTP/1.1 201 Created
+Date: Wed, 19 Apr 2023 14:26:55 GMT
+Server: Apache/2.4.41 (Ubuntu)
+Content-Security-Policy: default-src 'self';base-uri 'self';block-all-mixed-content;font-src 'self' https: data:;frame-ancestors 'self';img-src 'self' data:;object-src 'none';script-src 'self';script-src-attr 'none';style-src 'self' https: 'unsafe-inline';upgrade-insecure-requests
+X-DNS-Prefetch-Control: off
+Expect-CT: max-age=0
+X-Frame-Options: SAMEORIGIN
+Strict-Transport-Security: max-age=15552000; includeSubDomains
+X-Download-Options: noopen
+X-Content-Type-Options: nosniff
+X-Permitted-Cross-Domain-Policies: none
+Referrer-Policy: no-referrer
+X-XSS-Protection: 0
+Access-Control-Allow-Origin: *
+Content-Type: application/json; charset=utf-8
+Content-Length: 123
+ETag: W/"7b-ZGWCY6ifS7NScPkcW/zyLz2leKY"
+Vary: Accept-Encoding
+Keep-Alive: timeout=5, max=100
+Connection: Keep-Alive
+
+{
+    "orders": [
+        "643ffa2f568c3e9fb156cef4"
+    ],
+    "productOrderId": [
+        "643ffa2f568c3e9fb156ceee"
+    ],
+    "message": "Order Placed Successfully"
+}
+api/ecom/order/get-orders-details
+Request method:	GET
+Request URI:	https://rahulshettyacademy.com/api/ecom/order/get-orders-details?id=643ffa2f568c3e9fb156cef4
+Proxy:			<none>
+Request params:	<none>
+Query params:	id=643ffa2f568c3e9fb156cef4
+Form params:	<none>
+Path params:	<none>
+Headers:		Authorization=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI2Mzk5NjMyYzAzODQxZTljOWE1M2Y4NWMiLCJ1c2VyRW1haWwiOiJ0ZXN0YXV0b21hdGlvbjA2OTFAZ21haWwuY29tIiwidXNlck1vYmlsZSI6MTExMTExMTExMSwidXNlclJvbGUiOiJjdXN0b21lciIsImlhdCI6MTY4MTkxNDQxNCwiZXhwIjoxNzEzNDcyMDE0fQ.RaE-fpPEW6t-7mbiCnJhQo-yDKfyRSVRTdV5x9d2RSk
+				Accept=*/*
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>
+HTTP/1.1 200 OK
+Date: Wed, 19 Apr 2023 14:26:55 GMT
+Server: Apache/2.4.41 (Ubuntu)
+Content-Security-Policy: default-src 'self';base-uri 'self';block-all-mixed-content;font-src 'self' https: data:;frame-ancestors 'self';img-src 'self' data:;object-src 'none';script-src 'self';script-src-attr 'none';style-src 'self' https: 'unsafe-inline';upgrade-insecure-requests
+X-DNS-Prefetch-Control: off
+Expect-CT: max-age=0
+X-Frame-Options: SAMEORIGIN
+Strict-Transport-Security: max-age=15552000; includeSubDomains
+X-Download-Options: noopen
+X-Content-Type-Options: nosniff
+X-Permitted-Cross-Domain-Policies: none
+Referrer-Policy: no-referrer
+X-XSS-Protection: 0
+Access-Control-Allow-Origin: *
+Content-Type: application/json; charset=utf-8
+Content-Length: 416
+ETag: W/"1a0-REtEiw55lLP/+jTxUu0Jg1L1Nlo"
+Vary: Accept-Encoding
+Keep-Alive: timeout=5, max=100
+Connection: Keep-Alive
+
+{
+    "data": {
+        "_id": "643ffa2f568c3e9fb156cef4",
+        "orderById": "6399632c03841e9c9a53f85c",
+        "orderBy": "testautomation0691@gmail.com",
+        "productOrderedId": "643ffa2f568c3e9fb156ceee",
+        "productName": "laptop",
+        "country": "India",
+        "productDescription": "Dell",
+        "productImage": "https://rahulshettyacademy.com/api/ecom/uploads/productImage_1681914415123.jpg",
+        "orderPrice": "11500",
+        "__v": 0
+    },
+    "message": "Orders fetched for customer Successfully"
+}
+]]></system-out>
+  </testcase>
+  <testcase name="runScenario[&quot;Delete an Order in website using API call&quot;, &quot;Login to Ecommerce Website&quot;](5)" classname="cucumberOptions.TestRunner" time="1.445">
+    <system-out><![CDATA[/api/ecom/auth/login
+Request method:	POST
+Request URI:	https://rahulshettyacademy.com/api/ecom/auth/login
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "userEmail": "testautomation0691@gmail.com",
+    "userPassword": "Test@0691"
+}
+Request method:	POST
+Request URI:	https://rahulshettyacademy.com/api/ecom/auth/login
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "userEmail": "testautomation0691@gmail.com",
+    "userPassword": "Test@0691"
+}
+HTTP/1.1 200 OK
+Date: Wed, 19 Apr 2023 14:26:55 GMT
+Server: Apache/2.4.41 (Ubuntu)
+Content-Security-Policy: default-src 'self';base-uri 'self';block-all-mixed-content;font-src 'self' https: data:;frame-ancestors 'self';img-src 'self' data:;object-src 'none';script-src 'self';script-src-attr 'none';style-src 'self' https: 'unsafe-inline';upgrade-insecure-requests
+X-DNS-Prefetch-Control: off
+Expect-CT: max-age=0
+X-Frame-Options: SAMEORIGIN
+Strict-Transport-Security: max-age=15552000; includeSubDomains
+X-Download-Options: noopen
+X-Content-Type-Options: nosniff
+X-Permitted-Cross-Domain-Policies: none
+Referrer-Policy: no-referrer
+X-XSS-Protection: 0
+Access-Control-Allow-Origin: *
+Content-Type: application/json; charset=utf-8
+Content-Length: 370
+ETag: W/"172-NMw+JKeDI8PCIPgPT56IVLNvufo"
+Vary: Accept-Encoding
+Keep-Alive: timeout=5, max=100
+Connection: Keep-Alive
+
+{
+    "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI2Mzk5NjMyYzAzODQxZTljOWE1M2Y4NWMiLCJ1c2VyRW1haWwiOiJ0ZXN0YXV0b21hdGlvbjA2OTFAZ21haWwuY29tIiwidXNlck1vYmlsZSI6MTExMTExMTExMSwidXNlclJvbGUiOiJjdXN0b21lciIsImlhdCI6MTY4MTkxNDQxNSwiZXhwIjoxNzEzNDcyMDE1fQ.Du08BeGiMWjYLUqkOfzNXNoohwhricWyEUtl3JjZx6w",
+    "userId": "6399632c03841e9c9a53f85c",
+    "message": "Login Successfully"
+}
+api/ecom/product/add-product
+Request method:	POST
+Request URI:	https://rahulshettyacademy.com/api/ecom/product/add-product
+Proxy:			<none>
+Request params:	productName=laptop
+				productAddedBy=6399632c03841e9c9a53f85c
+				productCategory=fashion
+				productSubCategory=shirts
+				productPrice=11500
+				productDescription=Dell
+				productFor=All
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Authorization=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI2Mzk5NjMyYzAzODQxZTljOWE1M2Y4NWMiLCJ1c2VyRW1haWwiOiJ0ZXN0YXV0b21hdGlvbjA2OTFAZ21haWwuY29tIiwidXNlck1vYmlsZSI6MTExMTExMTExMSwidXNlclJvbGUiOiJjdXN0b21lciIsImlhdCI6MTY4MTkxNDQxNSwiZXhwIjoxNzEzNDcyMDE1fQ.Du08BeGiMWjYLUqkOfzNXNoohwhricWyEUtl3JjZx6w
+				Accept=*/*
+				Content-Type=multipart/form-data
+Cookies:		<none>
+Multiparts:		------------
+				Content-Disposition: form-data; name = productImage; filename = image.jpg
+				Content-Type: application/octet-stream
+
+				C:\Users\HARISH R\Desktop\image.jpg
+Body:			<none>
+HTTP/1.1 201 Created
+Date: Wed, 19 Apr 2023 14:26:56 GMT
+Server: Apache/2.4.41 (Ubuntu)
+Content-Security-Policy: default-src 'self';base-uri 'self';block-all-mixed-content;font-src 'self' https: data:;frame-ancestors 'self';img-src 'self' data:;object-src 'none';script-src 'self';script-src-attr 'none';style-src 'self' https: 'unsafe-inline';upgrade-insecure-requests
+X-DNS-Prefetch-Control: off
+Expect-CT: max-age=0
+X-Frame-Options: SAMEORIGIN
+Strict-Transport-Security: max-age=15552000; includeSubDomains
+X-Download-Options: noopen
+X-Content-Type-Options: nosniff
+X-Permitted-Cross-Domain-Policies: none
+Referrer-Policy: no-referrer
+X-XSS-Protection: 0
+Access-Control-Allow-Origin: *
+Content-Type: application/json; charset=utf-8
+Content-Length: 79
+ETag: W/"4f-NQBh/2Gk+QDKghlonlgG7u+2XKo"
+Vary: Accept-Encoding
+Keep-Alive: timeout=5, max=100
+Connection: Keep-Alive
+
+{
+    "productId": "643ffa30568c3e9fb156cefc",
+    "message": "Product Added Successfully"
+}
+eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI2Mzk5NjMyYzAzODQxZTljOWE1M2Y4NWMiLCJ1c2VyRW1haWwiOiJ0ZXN0YXV0b21hdGlvbjA2OTFAZ21haWwuY29tIiwidXNlck1vYmlsZSI6MTExMTExMTExMSwidXNlclJvbGUiOiJjdXN0b21lciIsImlhdCI6MTY4MTkxNDQxNSwiZXhwIjoxNzEzNDcyMDE1fQ.Du08BeGiMWjYLUqkOfzNXNoohwhricWyEUtl3JjZx6w
+643ffa30568c3e9fb156cefc
+api/ecom/order/create-order
+Request method:	POST
+Request URI:	https://rahulshettyacademy.com/api/ecom/order/create-order
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Authorization=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI2Mzk5NjMyYzAzODQxZTljOWE1M2Y4NWMiLCJ1c2VyRW1haWwiOiJ0ZXN0YXV0b21hdGlvbjA2OTFAZ21haWwuY29tIiwidXNlck1vYmlsZSI6MTExMTExMTExMSwidXNlclJvbGUiOiJjdXN0b21lciIsImlhdCI6MTY4MTkxNDQxNSwiZXhwIjoxNzEzNDcyMDE1fQ.Du08BeGiMWjYLUqkOfzNXNoohwhricWyEUtl3JjZx6w
+				Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "orders": [
+        {
+            "country": "India",
+            "productOrderedId": "643ffa30568c3e9fb156cefc"
+        }
+    ]
+}
+Request method:	POST
+Request URI:	https://rahulshettyacademy.com/api/ecom/order/create-order
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Authorization=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI2Mzk5NjMyYzAzODQxZTljOWE1M2Y4NWMiLCJ1c2VyRW1haWwiOiJ0ZXN0YXV0b21hdGlvbjA2OTFAZ21haWwuY29tIiwidXNlck1vYmlsZSI6MTExMTExMTExMSwidXNlclJvbGUiOiJjdXN0b21lciIsImlhdCI6MTY4MTkxNDQxNSwiZXhwIjoxNzEzNDcyMDE1fQ.Du08BeGiMWjYLUqkOfzNXNoohwhricWyEUtl3JjZx6w
+				Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "orders": [
+        {
+            "country": "India",
+            "productOrderedId": "643ffa30568c3e9fb156cefc"
+        }
+    ]
+}
+HTTP/1.1 201 Created
+Date: Wed, 19 Apr 2023 14:26:56 GMT
+Server: Apache/2.4.41 (Ubuntu)
+Content-Security-Policy: default-src 'self';base-uri 'self';block-all-mixed-content;font-src 'self' https: data:;frame-ancestors 'self';img-src 'self' data:;object-src 'none';script-src 'self';script-src-attr 'none';style-src 'self' https: 'unsafe-inline';upgrade-insecure-requests
+X-DNS-Prefetch-Control: off
+Expect-CT: max-age=0
+X-Frame-Options: SAMEORIGIN
+Strict-Transport-Security: max-age=15552000; includeSubDomains
+X-Download-Options: noopen
+X-Content-Type-Options: nosniff
+X-Permitted-Cross-Domain-Policies: none
+Referrer-Policy: no-referrer
+X-XSS-Protection: 0
+Access-Control-Allow-Origin: *
+Content-Type: application/json; charset=utf-8
+Content-Length: 123
+ETag: W/"7b-5EG7ivraIxosIMMS3l22348wshw"
+Vary: Accept-Encoding
+Keep-Alive: timeout=5, max=100
+Connection: Keep-Alive
+
+{
+    "orders": [
+        "643ffa30568c3e9fb156cf02"
+    ],
+    "productOrderId": [
+        "643ffa30568c3e9fb156cefc"
+    ],
+    "message": "Order Placed Successfully"
+}
+api/ecom/product/delete-product/{id}
+Request method:	DELETE
+Request URI:	https://rahulshettyacademy.com/api/ecom/product/delete-product/643ffa30568c3e9fb156cefc
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	id=643ffa30568c3e9fb156cefc
+Headers:		Authorization=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI2Mzk5NjMyYzAzODQxZTljOWE1M2Y4NWMiLCJ1c2VyRW1haWwiOiJ0ZXN0YXV0b21hdGlvbjA2OTFAZ21haWwuY29tIiwidXNlck1vYmlsZSI6MTExMTExMTExMSwidXNlclJvbGUiOiJjdXN0b21lciIsImlhdCI6MTY4MTkxNDQxNSwiZXhwIjoxNzEzNDcyMDE1fQ.Du08BeGiMWjYLUqkOfzNXNoohwhricWyEUtl3JjZx6w
+				Accept=*/*
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>
+HTTP/1.1 200 OK
+Date: Wed, 19 Apr 2023 14:26:57 GMT
+Server: Apache/2.4.41 (Ubuntu)
+Content-Security-Policy: default-src 'self';base-uri 'self';block-all-mixed-content;font-src 'self' https: data:;frame-ancestors 'self';img-src 'self' data:;object-src 'none';script-src 'self';script-src-attr 'none';style-src 'self' https: 'unsafe-inline';upgrade-insecure-requests
+X-DNS-Prefetch-Control: off
+Expect-CT: max-age=0
+X-Frame-Options: SAMEORIGIN
+Strict-Transport-Security: max-age=15552000; includeSubDomains
+X-Download-Options: noopen
+X-Content-Type-Options: nosniff
+X-Permitted-Cross-Domain-Policies: none
+Referrer-Policy: no-referrer
+X-XSS-Protection: 0
+Access-Control-Allow-Origin: *
+Content-Type: application/json; charset=utf-8
+Content-Length: 42
+ETag: W/"2a-2mOwR6FOFcYds+NaVy6wWIOyKCY"
+Vary: Accept-Encoding
+Keep-Alive: timeout=5, max=100
+Connection: Keep-Alive
+
+{
+    "message": "Product Deleted Successfully"
+}
+]]></system-out>
+  </testcase>
+  <testcase name="shouldAnswerWithTrue on shouldAnswerWithTrue(test.API_Ecommerce_Framework.AppTest)" classname="test.API_Ecommerce_Framework.AppTest" time="0.001">
+    <system-err><![CDATA[&amp#27;[32m&amp#27;[1m┌───────────────────────────────────────────────────────────────────────────────────┐&amp#27;[0m
+&amp#27;[32m&amp#27;[1m│&amp#27;[0m Share your Cucumber Report with your team at &amp#27;[36m&amp#27;[1m&amp#27;[4mhttps://reports.cucumber.io&amp#27;[0m          &amp#27;[32m&amp#27;[1m│&amp#27;[0m
+&amp#27;[32m&amp#27;[1m│&amp#27;[0m Activate publishing with one of the following:                                    &amp#27;[32m&amp#27;[1m│&amp#27;[0m
+&amp#27;[32m&amp#27;[1m│&amp#27;[0m                                                                                   &amp#27;[32m&amp#27;[1m│&amp#27;[0m
+&amp#27;[32m&amp#27;[1m│&amp#27;[0m src/test/resources/cucumber.properties:          &amp#27;[36mcucumber.publish.enabled&amp#27;[0m=&amp#27;[36mtrue&amp#27;[0m    &amp#27;[32m&amp#27;[1m│&amp#27;[0m
+&amp#27;[32m&amp#27;[1m│&amp#27;[0m src/test/resources/junit-platform.properties:    &amp#27;[36mcucumber.publish.enabled&amp#27;[0m=&amp#27;[36mtrue&amp#27;[0m    &amp#27;[32m&amp#27;[1m│&amp#27;[0m
+&amp#27;[32m&amp#27;[1m│&amp#27;[0m Environment variable:                            &amp#27;[36mCUCUMBER_PUBLISH_ENABLED&amp#27;[0m=&amp#27;[36mtrue&amp#27;[0m    &amp#27;[32m&amp#27;[1m│&amp#27;[0m
+&amp#27;[32m&amp#27;[1m│&amp#27;[0m JUnit:                                           &amp#27;[36m@CucumberOptions&amp#27;[0m(publish = &amp#27;[36mtrue&amp#27;[0m) &amp#27;[32m&amp#27;[1m│&amp#27;[0m
+&amp#27;[32m&amp#27;[1m│&amp#27;[0m                                                                                   &amp#27;[32m&amp#27;[1m│&amp#27;[0m
+&amp#27;[32m&amp#27;[1m│&amp#27;[0m More information at &amp#27;[36mhttps://cucumber.io/docs/cucumber/environment-variables/&amp#27;[0m      &amp#27;[32m&amp#27;[1m│&amp#27;[0m
+&amp#27;[32m&amp#27;[1m│&amp#27;[0m                                                                                   &amp#27;[32m&amp#27;[1m│&amp#27;[0m
+&amp#27;[32m&amp#27;[1m│&amp#27;[0m Disable this message with one of the following:                                   &amp#27;[32m&amp#27;[1m│&amp#27;[0m
+&amp#27;[32m&amp#27;[1m│&amp#27;[0m                                                                                   &amp#27;[32m&amp#27;[1m│&amp#27;[0m
+&amp#27;[32m&amp#27;[1m│&amp#27;[0m src/test/resources/cucumber.properties:          &amp#27;[36mcucumber.publish.quiet&amp#27;[0m=&amp#27;[36mtrue&amp#27;[0m      &amp#27;[32m&amp#27;[1m│&amp#27;[0m
+&amp#27;[32m&amp#27;[1m│&amp#27;[0m src/test/resources/junit-platform.properties:    &amp#27;[36mcucumber.publish.quiet&amp#27;[0m=&amp#27;[36mtrue&amp#27;[0m      &amp#27;[32m&amp#27;[1m│&amp#27;[0m
+&amp#27;[32m&amp#27;[1m└───────────────────────────────────────────────────────────────────────────────────┘&amp#27;[0m
+]]></system-err>
+  </testcase>
+</testsuite>
